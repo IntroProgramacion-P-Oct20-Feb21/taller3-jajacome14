@@ -7,7 +7,7 @@ package ejercicio10;
 
 /**
  *
- * @author JAVIER JACOME
+ * @author USUARIO
  */
 public class Ejercicio10 {
 
@@ -16,6 +16,8 @@ public class Ejercicio10 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        boolean respuesta = (Math.sqrt(25) * 10 >= 100) && (true) || (false) || (10 / 5) >= 2;
+        System.out.println(respuesta);
     }
-    
+
 }
