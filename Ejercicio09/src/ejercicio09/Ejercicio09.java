@@ -7,7 +7,7 @@ package ejercicio09;
 
 /**
  *
- * @author USUARIO
+ * @author JAVIER JACOME
  */
 public class Ejercicio09 {
 
@@ -16,9 +16,8 @@ public class Ejercicio09 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        boolean respuesta = Math.sqrt(81) + Math.sqrt(25) * 10 >= 50;        
-        System.out.println(respuesta);
-
+         boolean resultado = Math.sqrt(81) + Math.sqrt(25) * 10 >= 50;
+        System.out.println("La respuesta es: " +resultado);
     }
-
+    
 }
